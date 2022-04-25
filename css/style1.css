@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+ol, ul{
+    list-style: none;
+}
+a:hover{
+    opacity: 2;
+    color: #0757ce;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 90%;
+}
+.a{
+    color: #000;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #253858;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 500;
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+header{
+    padding: 10px;
+    height: 100px;
+    
+}
+header section.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div.left{
+}
+header div.left a{
+    display: inline-block;
+}
+header div.left a img{
+    display: block;
+    width: 100%;
+}
+header div.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+header div.right nav{
+}
+header div.right nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header div.right nav ul li{
+    margin-right: 40px;
+}
+header div.right nav ul li:last-child{
+    margin-right: 0;
+}
+header div.right nav ul li a{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+header div.right nav ul li a:hover{
+    color: #000;
+}
+header div.right div.right-one{
+}
+header div.right div.right-one a{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+header div.right div.right-one a.button{ 
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #0757ce;
+    background: #fff;
+    color: #0757ce;
+
+}
+header div.right div.right-one a.button:hover{ 
+    background:#0757ce ;
+    color: #fff;
+}
+#spotlight {
+
+}
+#spotlight section.wrapper {
+
+}
+
+
+
+
+
+
